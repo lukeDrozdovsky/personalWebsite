@@ -1,0 +1,143 @@
+h1 {
+    font-family: Lobster;
+    font-size: 4rem;
+}
+h2 {
+    font-family: caveat;
+    font-size: 2rem;
+}
+h3 {
+    font-family: Lobster;
+    font-size: 3rem;
+}
+.justified-text {
+  text-align: justify;
+}
+h4, h5 {
+  font-family: Lobster;
+  text-align: center;
+
+}
+.project-description {
+  text-align: justify;
+}
+.profile-pic {
+    border-radius: 50% !important;
+    height: 200px;
+    width: 200px;
+    margin: 0;
+}
+#wellcome-page {
+    background-color: rgb(74, 71, 71) !important;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+.wellcome-sign {
+    width: 50% !important;
+}
+.link-text {
+    color: inherit;
+    text-decoration: none; 
+}
+.responsive-heading {
+    text-align: center; 
+}
+.portfolio-img {
+  width: 400px;
+  height: 300px;
+  border-radius: 5%;
+  border: 5px solid;
+  border-color: #212529;
+}
+#cv-img {
+  width: 135px;
+  height: 200px;
+  border-radius: 5%;
+  border: 3px solid;
+  border-color: #dc3545;
+}  
+.break-word {
+    display: inline;
+    white-space: nowrap;
+}
+.cv-text {
+  text-align: left;
+  h4 {
+    text-align: left;
+  }
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #d9534f;
+  border-top: 5px solid #333;
+}  
+@media (max-width: 450px) {
+    .break-word {
+      display: block;
+      text-align: center; 
+    }
+}
+@media (max-width: 768px) {
+    .row:nth-child(odd) .col-md-6:first-child {
+      order: 2;
+    }
+    .row:nth-child(odd) .col-md-6:last-child {
+      order: 1;
+    }
+    #resume-and-projects .project-description {
+      margin-top: -40px !important;
+    }
+  
+    #resume-and-projects .project-description p {
+      margin: 1px !important;
+    }
+  }  
+
+@media (max-width: 450px) and (min-width: 381px) {
+    .star-size {
+      width: 75px; 
+      height: 75px;
+    }
+    
+}
+
+@media (max-width: 380px) {
+    .star-size {
+      width: 50px;
+      height: 50px;
+    }
+}
+
+@media (max-width: 430px) {
+    .col-4 .star-size {
+      width: 50px;
+      height: 50px;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+} 
+@media (max-width: 1050px) {
+  .portfolio-img {
+    width: 220px;
+    height: 150px;
+    border-radius: 5%;
+  } 
+} 
