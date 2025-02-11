@@ -1,253 +1,258 @@
 <!DOCTYPE html>
- <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Portfolio</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <div class="text-bg-dark py-1">
-            <div class="my-5 text-bg-danger">
-              <div class="container p-5 text-dark text-center">
-                <div class="row align-items-center justify-content-center">  
-                <div class="col-4">
-                 <h1>Portfolio</h1>
-                </div>               
+<body>
+    <div class="text-bg-dark py-1">
+        <div class="my-5 text-bg-danger">
+            <div class="container p-5 text-dark text-center">
+                <div class="row align-items-center justify-content-center pe-md-0 pe-5">
+                    <div class="col-4 me-md-0 me-5">
+                        <h1>Portfolio</h1>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
+    </div>
 
-          <div class="container px-4">
-            <div class="py-5 text-center justify-content-center align-items-center">
-              <div class="container text-bg-dark p-5 rounded-5 border border-5 border-danger" id="wellcome-sign">
-              <h3>What will you see?</h3>
-              <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4 justified-text">I’ve compiled a selection of my projects here as a demonstration of my skills. 
-                  While I know there’s still a long journey ahead, 
-                  I’m excited for the opportunities to create even more impressive work in the future. 
-                  Stay tuned for what’s coming next!
-                </p>
-              </div>
-              </div>
+    <div class="container px-1">
+        <div class="py-5 text-center justify-content-center align-items-center">
+            <div class="container text-bg-dark p-5 rounded-5 border border-5 border-danger" id="wellcome-sign">
+                <h3>What will you see?</h3>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 justified-text">
+                        I’ve compiled a selection of my projects here as a demonstration of my skills. 
+                        While I know there’s still a long journey ahead, 
+                        I’m excited for the opportunities to create even more impressive work in the future. 
+                        Stay tuned for what’s coming next!
+                    </p>
+                </div>
             </div>
-          </div>
+        </div>
+    </div>
 
-          <Section id="resume-and-projects">
-            <div class="container px-4">
+    <section class="zic-zac-layout" id="resume-and-projects">
+        <div class="container px-1">
             <div class="container mx-auto my-5 custom-container p-4 text-center text-bg-danger rounded-5 border border-5 border-dark">
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/portfolio/textCalculator.png" alt="text-calculator" class="portfolio-img"></div>
+                <!-- Text Calculator -->
+                <div class="row g-0 align-items-center flex-column flex-md-row me-md-5">
+                    <div class="col-md-6 my-5 mb-0 my-md-5">
+                        <img src="../pictures/portfolio/textCalculator.png" alt="text-calculator" class="portfolio-img img-fluid rounded">
+                    </div>
+                    <div class="col-md-6 my-3 my-md-5">
+                        <h4>Text Calculator</h4>
+                        <p class="justified-text">This project is a text-based calculator application written in Java. 
+                            It allows users to perform various arithmetic and mathematical operations directly from the console. 
+                            Users can input expressions in the format number operator number (e.g., 123 + 456 or 5 * 5) and calculate the result.<br/><br/>
+                            The calculator supports basic operators such as addition (+), subtraction (-), multiplication (*), and division (/), 
+                            as well as advanced functions like square root (sqrt), logarithm (log), and sine (sin). 
+                            The input values are validated to ensure they remain within a defined range (-999 to 999). 
+                            The program provides clear instructions for use and includes an option to exit by typing "END." 
+                            This is a simple yet effective project for demonstrating console-based interaction 
+                            and basic mathematical functionalities in Java.</p>
+                    </div>
                 </div>
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Text Calculator</h4>
-                  <p>This project is a text-based calculator application written in Java. 
-                    It allows users to perform various arithmetic and mathematical operations directly from the console. 
-                    Users can input expressions in the format number operator number (e.g., 123 + 456 or 5 * 5) and calculate the result.<br/><br/>
-                    The calculator supports basic operators such as addition (+), subtraction (-), multiplication (*), and division (/), 
-                    as well as advanced functions like square root (sqrt), logarithm (log), and sine (sin). 
-                    The input values are validated to ensure they remain within a defined range (-999 to 999). 
-                    The program provides clear instructions for use and includes an option to exit by typing "END." 
-                    This is a simple yet effective project for demonstrating console-based interaction 
-                    and basic mathematical functionalities in Java.</p>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>TinDog startup project</h4>
-                  <p>
-                    This project is a <strong>frontend-only webpage</strong> designed for a fictional app called <em>TinDog</em>. 
-                    The app's purpose is to help users, who are dog owners, find potential matches for their dogs. 
-                    It allows users to discover and connect with new and interesting dogs nearby, facilitating relationships between pets.
-                  </p>
-                  <p>The website features a modern and responsive design, developed using <strong>HTML, CSS, and Bootstrap</strong> for styling and layout. It includes the following sections:</p>
-                  <ul>
-                    <li>
-                      <strong>A promotional hero section:</strong> A gradient background that showcases the app's tagline and a mockup of the app's interface on a smartphone.
-                    </li>
-                    <li>
-                      <strong>Call-to-action buttons:</strong> Buttons for downloading the app from the App Store or Google Play.
-                    </li>
-                    <li>
-                      <strong>Highlight sections:</strong> Descriptions of the app's key benefits, such as:
-                      <ul>
-                        <li>Ease of use.</li>
-                        <li>Elite clientele.</li>
-                        <li>A guarantee of effectiveness.</li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <p>
-                    This project focuses on <strong>design and user experience</strong>, demonstrating skills in responsive web design, layout structuring, and modern aesthetics. 
-                    It does not include any backend functionality.
-                  </p>
-                </div>
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/portfolio/TinDog.png" alt="Tindog-webside" class="portfolio-img"></div>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/portfolio/mondarianStyle.png" alt="Mondarian-style-painting" class="portfolio-img"></div>
-                </div>
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Mondrian-Inspired Web Design</h4>
-                  <p>
-                    This project is a <strong>Mondrian-inspired web design</strong>, influenced by the artistic style of Piet Mondrian. 
-                    The design features a grid layout with bold black lines and vibrant blocks of primary colors, balanced by neutral tones. 
-                    It emphasizes simplicity, balance, and modern design principles. Key characteristics of this project include:
-                  </p>
-                  <ul>
-                    <li>
-                      <strong>Grid-based structure:</strong> The layout uses thick black lines to divide sections, creating a structured grid system.
-                    </li>
-                    <li>
-                      <strong>Primary color blocks:</strong> Vibrant colors like red, blue, and yellow are used strategically to draw attention and create contrast.
-                    </li>
-                    <li>
-                      <strong>Asymmetrical balance:</strong> Differently sized rectangles and squares provide a dynamic yet harmonious composition.
-                    </li>
-                    <li>
-                      <strong>Neutral space:</strong> White or light gray areas help balance the bold colors and prevent visual overload.
-                    </li>
-                  </ul>
-                  <p>
-                    This project demonstrates how modern web technologies, such as <strong>CSS Grid</strong> or <strong>Flexbox</strong>, 
-                    can be used to recreate and adapt Mondrian’s artistic principles into digital design.
-                  </p>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Ski Jump Scoring Program</h4>
-            <p>
-              This project is a <strong>Java-based application</strong> designed to calculate the total score for a ski jumper. 
-              The program mimics professional ski jumping scoring by summing up points for distance, style, and wind compensation.
-            </p>
-            <h5>Key Features</h5>
-            <ul>
-              <li>
-                <strong>Overall Score Calculation:</strong> Combines points for:
-                <ul>
-                  <li>Jump distance</li>
-                  <li>Style</li>
-                  <li>Wind compensation</li>
-                </ul>
-              </li>
-              <li>
-                <strong>Modular Design:</strong> Each scoring component is handled by a dedicated method.
-              </li>
-              <li>
-                <strong>Flight Phases:</strong> Scoring is broken into distinct jump phases:
-                <ul>
-                  <li>Flight</li>
-                  <li>Landing</li>
-                  <li>Run-out</li>
-                </ul>
-              </li>
-            </ul>
-            <h5>Project Objectives</h5>
-            <ul>
-              <li><strong>Accuracy:</strong> Mimics the official scoring system of ski jumping.</li>
-              <li><strong>Modularity:</strong> Simplifies understanding and maintenance.</li>
-            </ul>
-            <h5>Practical Use</h5>
-            <p>
-              This program serves as a foundation for more advanced applications, 
-              like simulation games or educational tools for modular programming.
-            </p>
-                </div>
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/portfolio/ski.png" alt="ski-jump-point-calculator" class="portfolio-img"></div>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/portfolio/devAgency.png" alt="developer-agency-website" class="portfolio-img"></div>
-                </div>
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Landing Page Description</h4>
-            <p>
-              This is a <strong>landing page</strong> for a fictional creative design agency, showcasing a modern and clean aesthetic. 
-              The layout emphasizes simplicity and clarity, with sections to communicate the agency's services and expertise.
-            </p>
-            <h5>Features</h5>
-            <ul>
-              <li>
-                A prominent header with the brand name <strong>"dev.com"</strong> in orange, reflecting creativity and energy.
-              </li>
-              <li>
-                A bold main heading, <strong>"We are a Creative Design Agency,"</strong> highlighting innovation.
-              </li>
-              <li>
-                Two distinct service sections (e.g., <em>"Beauty"</em> and <em>"Construction"</em>) with visuals and concise descriptions.
-              </li>
-              <li>
-                A balanced layout using whitespace and rounded-corner images for visual appeal and readability.
-              </li>
-            </ul>
-            <p>
-              This landing page effectively conveys the agency's creative and technical skills while maintaining a professional and approachable design. 
-              The combination of vibrant and monochrome images adds depth and variety to the presentation.
-            </p>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Rock, Paper, Scissors Game</h4>
-            <p>
-              This is a simple <strong>console-based game</strong> written in Python where a player competes against the computer in a game of Rock, Paper, Scissors.
-              The computer's choice is generated randomly, and the winner is determined based on standard game rules.
-              The program provides clear feedback after each round and includes fun messages for an engaging user experience.
-            </p>
-                </div>
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/portfolio/RockPaperSccissorsGame.png" alt="rock-paper-sccissors-game" class="portfolio-img"></div>
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="text-center mb-5">
-            <button class="btn btn-outline-dark btn-lg px-4 rounded-pill" type="button">
-              <a href="../index.html" class="link-text">
-                <h3>Back to main site</h3>
-              </a>
-            </button>
-          </div>      
-    </Section>
-          <section id="footer" class="border-top border-5 border-dark bg-danger">
-            <div class="container">
-              <footer class="d-flex flex-wrap justify-content-between align-items-center pb-5 mt-4">
-                <div class="col-md-4 d-flex align-items-center">
-                  <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                  </a>
-                  <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Luke Drozdovsky</span>
+                <!-- TinDog Project -->
+                <div class="row g-0 align-items-center flex-column flex-md-row ms-md-5">
+                    <div class="col-md-6 order-md-2 mt-5 mb-3 my-md-5">
+                        <img src="../pictures/portfolio/TinDog.png" alt="Tindog-website" class="portfolio-img img-fluid rounded">
+                    </div>
+                    <div class="col-md-6 my-3 my-md-5">
+                        <h4>TinDog Startup Project</h4>
+                        <p class="justified-text">This project is a <strong>frontend-only webpage</strong> designed for a fictional app called <em>TinDog</em>. 
+                            The app's purpose is to help users, who are dog owners, find potential matches for their dogs. 
+                            It allows users to discover and connect with new and interesting dogs nearby, facilitating relationships between pets.
+                          </p>
+                          <p class="justified-text">The website features a modern and responsive design, developed using <strong>HTML, CSS, and Bootstrap</strong> for styling and layout. It includes the following sections:</p>
+                          <ul class="justified-text">
+                            <li>
+                              <strong>A promotional hero section:</strong> A gradient background that showcases the app's tagline and a mockup of the app's interface on a smartphone.
+                            </li>
+                            <li>
+                              <strong>Call-to-action buttons:</strong> Buttons for downloading the app from the App Store or Google Play.
+                            </li>
+                            <li>
+                              <strong>Highlight sections:</strong> Descriptions of the app's key benefits, such as:
+                              <ul>
+                                <li>Ease of use.</li>
+                                <li>Elite clientele.</li>
+                                <li>A guarantee of effectiveness.</li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <p class="justified-text">
+                            This project focuses on <strong>design and user experience</strong>, demonstrating skills in responsive web design, layout structuring, and modern aesthetics. 
+                            It does not include any backend functionality.
+                        </p>
+                    </div>
                 </div>
-            
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                  <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/łukasz-drozdowski-40a273344"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                  </svg></a></li>
-                  <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/luke_drozdovsky/?igsh=ZjI1ZDM1MWhuMHY5&fbclid=IwZXh0bgNhZW0CMTAAAR0CBq4_hhh_ojMEjPj5ZUhdtee9AovJOptFfxK7DLt0Khuo5rTscEF90e8_aem_So6FkQc6YJleEyKJ3WcYcw#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                  </svg></a></li>
-                  <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100000848747822"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                  </svg></a></li>
-                </ul>
-              </footer>
+
+                <!-- Mondrian-Inspired Web Design -->
+                <div class="row g-0 align-items-center flex-column flex-md-row me-md-5">
+                    <div class="col-md-6 mb-3 mt-5 mb-3 my-md-5">
+                        <img src="../pictures/portfolio/mondarianStyle.png" alt="Mondrian-style" class="portfolio-img img-fluid rounded">
+                    </div>
+                    <div class="col-md-6 my-3 my-md-5">
+                        <h4>Mondrian-Inspired Web Design</h4>
+                        <p class="justified-text">This project is a <strong>Mondrian-inspired web design</strong>, influenced by the artistic style of Piet Mondrian. 
+                            The design features a grid layout with bold black lines and vibrant blocks of primary colors, balanced by neutral tones. 
+                            It emphasizes simplicity, balance, and modern design principles. Key characteristics of this project include:
+                          </p>
+                          <ul class="justified-text">
+                            <li>
+                              <strong>Grid-based structure:</strong> The layout uses thick black lines to divide sections, creating a structured grid system.
+                            </li>
+                            <li>
+                              <strong>Primary color blocks:</strong> Vibrant colors like red, blue, and yellow are used strategically to draw attention and create contrast.
+                            </li>
+                            <li>
+                              <strong>Asymmetrical balance:</strong> Differently sized rectangles and squares provide a dynamic yet harmonious composition.
+                            </li>
+                            <li>
+                              <strong>Neutral space:</strong> White or light gray areas help balance the bold colors and prevent visual overload.
+                            </li>
+                          </ul>
+                          <p class="justified-text">
+                            This project demonstrates how modern web technologies, such as <strong>CSS Grid</strong> or <strong>Flexbox</strong>, 
+                            can be used to recreate and adapt Mondrian’s artistic principles into digital design.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ski Jump Scoring Program -->
+                <div class="row g-0 align-items-center flex-column flex-md-row ms-md-5">
+                    <div class="col-md-6 order-md-2 mt-5 mb-3 my-md-5">
+                        <img src="../pictures/portfolio/ski.png" alt="ski-jump" class="portfolio-img img-fluid rounded">
+                    </div>
+                    <div class="col-md-6 my-3 my-md-5">
+                        <h4>Ski Jump Scoring Program</h4>
+                        <p class="justified-text">This project is a <strong>Java-based application</strong> designed to calculate the total score for a ski jumper. 
+                            The program mimics professional ski jumping scoring by summing up points for distance, style, and wind compensation.
+                          </p>
+                          <h5>Key Features</h5>
+                          <ul class="justified-text">
+                            <li>
+                              <strong>Overall Score Calculation:</strong> Combines points for:
+                              <ul>
+                                <li>Jump distance</li>
+                                <li>Style</li>
+                                <li>Wind compensation</li>
+                              </ul>
+                            </li>
+                            <li>
+                              <strong>Modular Design:</strong> Each scoring component is handled by a dedicated method.
+                            </li>
+                            <li>
+                              <strong>Flight Phases:</strong> Scoring is broken into distinct jump phases:
+                              <ul>
+                                <li>Flight</li>
+                                <li>Landing</li>
+                                <li>Run-out</li>
+                              </ul>
+                            </li>
+                          </ul>
+                          <h5>Project Objectives</h5>
+                          <ul class="justified-text">
+                            <li><strong>Accuracy:</strong> Mimics the official scoring system of ski jumping.</li>
+                            <li><strong>Modularity:</strong> Simplifies understanding and maintenance.</li>
+                          </ul>
+                          <h5>Practical Use</h5>
+                          <p class="justified-text">
+                            This program serves as a foundation for more advanced applications, 
+                            like simulation games or educational tools for modular programming.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Landing Page Description -->
+                <div class="row g-0 align-items-center flex-column flex-md-row me-md-5">
+                    <div class="col-md-6 mt-5 mb-3 my-md-5">
+                        <img src="../pictures/portfolio/devAgency.png" alt="landing-page" class="portfolio-img img-fluid rounded">
+                    </div>
+                    <div class="col-md-6 my-3 my-md-5">
+                        <h4>Landing Page Description</h4>
+                        <p class="justified-text">This is a <strong>landing page</strong> for a fictional creative design agency, showcasing a modern and clean aesthetic. 
+                            The layout emphasizes simplicity and clarity, with sections to communicate the agency's services and expertise.
+                          </p>
+                          <h5>Features</h5>
+                          <ul class="justified-text">
+                            <li>
+                              A prominent header with the brand name <strong>"dev.com"</strong> in orange, reflecting creativity and energy.
+                            </li>
+                            <li>
+                              A bold main heading, <strong>"We are a Creative Design Agency,"</strong> highlighting innovation.
+                            </li>
+                            <li>
+                              Two distinct service sections (e.g., <em>"Beauty"</em> and <em>"Construction"</em>) with visuals and concise descriptions.
+                            </li>
+                            <li>
+                              A balanced layout using whitespace and rounded-corner images for visual appeal and readability.
+                            </li>
+                          </ul>
+                          <p class="justified-text">
+                            This landing page effectively conveys the agency's creative and technical skills while maintaining a professional and approachable design. 
+                            The combination of vibrant and monochrome images adds depth and variety to the presentation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Rock, Paper, Scissors Game -->
+                <div class="row g-0 align-items-center flex-column flex-md-row ms-md-5">
+                    <div class="col-md-6 order-md-2 mt-5 mb-3 my-md-5">
+                        <img src="../pictures/portfolio/RockPaperSccissorsGame.png" alt="rock-paper-scissors" class="portfolio-img img-fluid rounded">
+                    </div>
+                    <div class="col-md-6 my-3 my-md-5">
+                        <h4>Rock, Paper, Scissors Game</h4>
+                        <p class="justified-text">This is a simple <strong>console-based game</strong> written in Python where a player competes against the computer in a game of Rock, Paper, Scissors.
+                            The computer's choice is generated randomly, and the winner is determined based on standard game rules.
+                            The program provides clear feedback after each round and includes fun messages for an engaging user experience.
+                        </p>
+                    </div>
+                </div>
             </div>
-          </section>      
-    </body>
- </html>          
+        </div>
+
+        <!-- Back to main site button -->
+        <div class="container px-2">
+            <div class="text-center mb-5">
+                <button class="btn btn-outline-dark btn-lg px-4 rounded-pill" type="button">
+                <a href="../index.html" class="link-text">
+                    <h3>Back to main site</h3>
+                </a>
+                </button>
+            </div>
+        </div>    
+    </section>
+
+    <section id="footer" class="border-top border-5 border-dark bg-danger">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center pb-5 mt-4">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Luke Drozdovsky</span>
+                </div>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/łukasz-drozdowski-40a273344"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                            </svg></a></li>
+                        <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/luke_drozdovsky/?igsh=ZjI1ZDM1MWhuMHY5&fbclid=IwZXh0bgNhZW0CMTAAAR0CBq4_hhh_ojMEjPj5ZUhdtee9AovJOptFfxK7DLt0Khuo5rTscEF90e8_aem_So6FkQc6YJleEyKJ3WcYcw#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg></a></li>
+                        <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100000848747822"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg></a></li>
+                    </ul>
+            </footer>
+        </div>
+    </section>
+</body>
+</html>

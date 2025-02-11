@@ -1,56 +1,63 @@
 <!DOCTYPE html>
- <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>About me</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&display=swap" rel="stylesheet">
+</head>
 
-    <body>
-        <div class="text-bg-dark py-1">
-            <div class="my-5 text-bg-danger">
-              <div class="container p-5 text-dark text-center">
-                <div class="row align-items-center justify-content-center">  
-                <div class="col-4">
-                 <h1>About me</h1>
-                </div>               
+<body>
+
+  <!-- Title -->
+  <div class="text-bg-dark py-1">
+    <div class="my-5 text-bg-danger">
+        <div class="container p-5 text-dark text-center">
+            <div class="row align-items-center justify-content-center pe-md-0 pe-5">
+                <div class="col-4 me-md-0 me-5">
+                    <h1>About me</h1>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
+    </div>
+  </div>
 
-          <div class="container px-4">
-            <div class="py-5 text-center justify-content-center align-items-center">
-              <div class="container text-bg-dark p-5 rounded-5 border border-5 border-danger" id="wellcome-sign">
-              <h3>Get to know me</h3>
-              <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4 justified-text">This section provides a glimpse into how I spend my free time, 
-                  showcasing the hobbies and passions that shape who I am. From creative pursuits to personal growth activities, 
-                  it’s all about what keeps me inspired and motivated. Feel free to explore and learn more!
-                </p>
-              </div>
-              </div>
-            </div>
-          </div>
+  <!-- Brief info -->
+  <div class="container px-1">
+    <div class="py-5 text-center justify-content-center align-items-center">
+      <div class="container text-bg-dark p-5 rounded-5 border border-5 border-danger" id="wellcome-sign">
+        <h3>Get to know me</h3>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 justified-text">
+            This section provides a glimpse into how I spend my free time, 
+            showcasing the hobbies and passions that shape who I am. From creative pursuits to personal growth activities, 
+            it’s all about what keeps me inspired and motivated. Feel free to explore and learn more!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-          <Section id="about-me">
-            <div class="container px-4">
-            <div class="container mx-auto my-5 custom-container p-4 text-center text-bg-danger rounded-5 border border-5 border-dark">
-              <h3 class="pb-2 my-5">Musician journey</h3>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/aboutMe/guitarPic.jpg" alt="text-calculator" class="portfolio-img"></div>
-                </div>
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Performances</h4>
-                  <p>This photo was taken during a performance of my own arrangement of a bachata song. 
+  <!-- Main content -->
+  <section class="zic-zac-layout" id="resume-and-projects">
+    <div class="container px-1">
+      <div class="container mx-auto my-5 custom-container p-4 text-center text-bg-danger rounded-5 border border-5 border-dark">
+        
+        <!--Musician journey-->
+        <h3 class="pb-2 my-5">Musician journey</h3>
+
+        <!-- Performances -->
+        <div class="row g-0 align-items-center flex-column flex-md-row me-md-5">
+          <div class="col-md-6 my-5 mb-0 my-md-5">
+              <img src="../pictures/aboutMe/guitarPic.jpg" alt="text-calculator" class="portfolio-img img-fluid rounded">
+          </div>
+          <div class="col-md-6 my-3 my-md-5">
+              <h4>Performances</h4>
+              <p class="justified-text"> This photo was taken during a performance of my own arrangement of a bachata song. 
                     While I don’t have many big stage experiences, I primarily play for my own enjoyment and derive a lot of joy from it.<br/>
                     <br/>
                     I taught myself how to play the guitar and never had a formal teacher, 
@@ -58,35 +65,43 @@
                     For a time, I played in a band, but due to circumstances beyond my control, the project didn’t succeed.<br/>
                     <br/> 
                     Nowadays, I occasionally collaborate on small creative projects with like-minded individuals who share 
-                    a sense of creativity and vision. Additionally, I express myself artistically by sharing reels of my music on Instagram.</p>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Youth Musical Theatre</h4>
-                  <p>This photo captures a moment from my first major stage performance with a youth musical theatre group. 
-                    As part of the production, I portrayed a vampire, 
-                    combining singing, dancing, acting, and even playing the guitar to bring the character to life.<br/>
-                    <br/> 
-                    During my time with the theatre, I had the opportunity to learn various dance styles and hone my singing skills, 
-                    making this experience both challenging and exhilarating.<br/><br/> Unfortunately, 
-                    due to increasing responsibilities related to my studies and professional life, 
-                    I had to step away from the group. Nonetheless, 
-                    it was an unforgettable journey that helped me grow as a performer 
-                    and allowed me to meet incredible people along the way.</p>                  
-                </div>
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/aboutMe/stagePic.jpg" alt="Tindog-webside" class="portfolio-img"></div>
-                </div>
-              </div>
-              <h3 class="pb-2 my-5">Fitness journey</h3>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/aboutMe/homeGymPic.jpg" alt="Mondarian-style-painting" class="portfolio-img"></div>
-                </div>
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Home made gym</h4>
-                  <p>I started my strength training journey as a teenager at the age of 13, 
+                    a sense of creativity and vision. Additionally, I express myself artistically by sharing reels of my music on Instagram.
+              </p>
+          </div>
+        </div>
+
+        <!-- Youth Musical Theatre -->
+        <div class="row g-0 align-items-center flex-column flex-md-row ms-md-5">
+          <div class="col-md-6 order-md-2 mt-5 mb-3 my-md-5">
+              <img src="../pictures/aboutMe/stagePic.jpg" alt="Tindog-website" class="portfolio-img img-fluid rounded">
+          </div>
+          <div class="col-md-6 my-3 my-md-5">
+              <h4>Youth Musical Theatre</h4>
+              <p class="justified-text">This photo captures a moment from my first major stage performance with a youth musical theatre group. 
+                As part of the production, I portrayed a vampire, 
+                combining singing, dancing, acting, and even playing the guitar to bring the character to life.<br/>
+                <br/> 
+                During my time with the theatre, I had the opportunity to learn various dance styles and hone my singing skills, 
+                making this experience both challenging and exhilarating.<br/><br/> Unfortunately, 
+                due to increasing responsibilities related to my studies and professional life, 
+                I had to step away from the group. Nonetheless, 
+                it was an unforgettable journey that helped me grow as a performer 
+                and allowed me to meet incredible people along the way.
+              </p>
+          </div>
+        </div>
+        
+        <!-- Fitness jeourney -->
+        <h3 class="pb-2 my-5">Fitness journey</h3>
+
+        <!-- Home made gym -->
+        <div class="row g-0 align-items-center flex-column flex-md-row me-md-5">
+          <div class="col-md-6 mb-3 mt-5 mb-3 my-md-5">
+              <img src="../pictures/aboutMe/homeGymPic.jpg" alt="Mondrian-style" class="portfolio-img img-fluid rounded">
+          </div>
+          <div class="col-md-6 my-3 my-md-5">
+              <h4>Home made gym</h4>
+              <p class="justified-text">I started my strength training journey as a teenager at the age of 13, 
                     beginning with calisthenics exercises like push-ups and pull-ups.<br/>
                     <br/> 
                     My first experience with a gym came when I was 17, during high school, 
@@ -97,117 +112,125 @@
                     where I trained even during the winter months. <br/><br/>Now that I live in a larger city, 
                     I no longer face such challenges and enjoy the convenience of modern gyms. 
                     This journey has taught me resilience and the value of adapting to circumstances to pursue my passion for fitness.
-                  </p>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Calisthenics awaits</h4>
-                      <p>
-                        After suffering another injury, this time to my back, I’ll need to pause weightlifting for a while.<br/><br/> However, 
-                        I’m determined not to give up so easily. 
-                        I plan to focus on calisthenics, using this time to develop my skills and strengthen my body in new ways. 
-                        Additionally, I’ll need to dedicate more time to stretching, as I’ve neglected this aspect of training, which partially contributed to my injury. 
-                        I really don’t enjoy stretching—it’s my nemesis—but it’s something I have to do. <br/><br/>When the time is right, 
-                        I’ll return to lifting weights, stronger than ever. 
-                        This journey is a reminder that progress doesn’t stop with setbacks—it evolves.
-                      </p>
-                </div>
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/aboutMe/flag.jpg" alt="ski-jump-point-calculator" class="portfolio-img"></div>
-                </div>
-              </div>
-              <h3 class="pb-2 my-5">Danceing, hiking and others...</h3>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/aboutMe/Danceing.jpg" alt="developer-agency-website" class="portfolio-img"></div>
-                </div>
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Danceing</h4>
-                    <p>
-                      Over two years ago, I began learning social dances, primarily focusing on bachata, 
-                      and I quickly fell in love with it.<br/><br/> Mastering a new skill like partner dancing, where communication happens without words, 
-                      is incredibly stimulating and exciting. It allows you to truly let loose on the dance floor, 
-                      and the time spent there flows smoothly and enjoyably. <br/><br/>However, 
-                      dancing is not just about entertainment—it’s also a fantastic way to build connections and meet many interesting people. 
-                      Through this journey, I’ve had the chance to encounter a wide variety of fascinating individuals, including, as it turns out, 
-                      a programming mentor. This unique combination of joy, growth, and unexpected opportunities makes dancing an essential 
-                      and enriching part of my life.
-                    </p>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Hiking</h4>
-                    <p>
-                      Hiking has been a passion of mine since I was a child. 
-                      My father often took me and my siblings on mountain adventures, 
-                      and growing up in a town surrounded by mountains meant there were always trails to explore. <br/><br/>
-                      Nowadays, due to limited time, I can’t hike as frequently as I used to, but whenever I get a moment, 
-                      I seize the opportunity to reconnect with nature. 
-                      Being out in the mountains allows me to clear my mind and find peace amidst the beauty of the natural world.
-                    </p>
-                </div>
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/aboutMe/hugla.jpg" alt="rock-paper-sccissors-game" class="portfolio-img"></div>
-                </div>
-              </div>
-              <div class="row g-0 align-items-center">
-                <div class="col-md-6 my-5">
-                  <div class="image-placeholder"><img src="../pictures/aboutMe/books.jpg" alt="developer-agency-website" class="portfolio-img"></div>
-                </div>
-                <div class="col-md-6 p-4 my-5 project-description">
-                  <h4>Books</h4>
-                    <p>
-                      Books have become a significant part of my life, although I didn’t always read as much as I do now. 
-                      I’m working to make up for lost time. When I was younger, I was particularly drawn to science fiction and fantasy. 
-                      Some of my favorite series include The Lord of the Rings and The Witcher Saga.<br/><br/>
-                      Lately, I’ve discovered immense value in non-fiction books. 
-                      I enjoy reading scientific titles, especially in the fields of neuroscience and psychology, 
-                      as well as self-help and philosophical works. Stoic philosophy has a special place in my heart, 
-                      with Marcus Aurelius being one of my greatest inspirations in this area.<br/><br/>
-                      That said, I still leave room for fantasy. From time to time, I delve into fiction—recently, 
-                      I enjoyed The Witcher: Crossroads of Ravens, a prequel to The Witcher Saga. 
-                      For me, reading is not just a pastime but a way to grow, learn, and escape into fascinating worlds.
-                    </p>
-                </div>
-              </div>
-            </div>
+              </p>
           </div>
+        </div>
 
-          <div class="text-center mb-5">
-            <button class="btn btn-outline-dark btn-lg px-4 rounded-pill" type="button">
-              <a href="../index.html" class="link-text">
-                <h3>Back to main site</h3>
-              </a>
-            </button>
-          </div>  
-        </Section>  
-        
-        <section id="footer" class="border-top border-5 border-dark bg-danger">
-          <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center pb-5 mt-4">
-              <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Luke Drozdovsky</span>
-              </div>
-          
-              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/łukasz-drozdowski-40a273344"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                </svg></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/luke_drozdovsky/?igsh=ZjI1ZDM1MWhuMHY5&fbclid=IwZXh0bgNhZW0CMTAAAR0CBq4_hhh_ojMEjPj5ZUhdtee9AovJOptFfxK7DLt0Khuo5rTscEF90e8_aem_So6FkQc6YJleEyKJ3WcYcw#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                </svg></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100000848747822"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                </svg></a></li>
-              </ul>
-            </footer>
+        <!-- Calisthenics awaits -->
+        <div class="row g-0 align-items-center flex-column flex-md-row ms-md-5">
+          <div class="col-md-6 order-md-2 mt-5 mb-3 my-md-5">
+              <img src="../pictures/aboutMe/flag.jpg" alt="ski-jump" class="portfolio-img img-fluid rounded">
           </div>
-        </section>    
-    </body>
+          <div class="col-md-6 my-3 my-md-5">
+              <h4>Calisthenics awaits</h4>
+              <p class="justified-text">After suffering another injury, this time to my back, I’ll need to pause weightlifting for a while.<br/><br/> However, 
+                I’m determined not to give up so easily. 
+                I plan to focus on calisthenics, using this time to develop my skills and strengthen my body in new ways. 
+                Additionally, I’ll need to dedicate more time to stretching, as I’ve neglected this aspect of training, which partially contributed to my injury. 
+                I really don’t enjoy stretching—it’s my nemesis—but it’s something I have to do. <br/><br/>When the time is right, 
+                I’ll return to lifting weights, stronger than ever. 
+                This journey is a reminder that progress doesn’t stop with setbacks—it evolves.
+              </p>
+          </div>
+        </div>
+
+        <!-- Danceing, hiking and others... -->
+        <h3 class="pb-2 my-5">Danceing, hiking and others...</h3>
+
+        <!-- Danceing -->
+        <div class="row g-0 align-items-center flex-column flex-md-row me-md-5">
+          <div class="col-md-6 mt-5 mb-3 my-md-5">
+              <img src="../pictures/aboutMe/Danceing.jpg" alt="landing-page" class="portfolio-img img-fluid rounded">
+          </div>
+          <div class="col-md-6 my-3 my-md-5">
+              <h4>Danceing</h4>
+              <p class="justified-text">Over two years ago, I began learning social dances, primarily focusing on bachata, 
+                and I quickly fell in love with it.<br/><br/> Mastering a new skill like partner dancing, where communication happens without words, 
+                is incredibly stimulating and exciting. It allows you to truly let loose on the dance floor, 
+                and the time spent there flows smoothly and enjoyably. <br/><br/>However, 
+                dancing is not just about entertainment—it’s also a fantastic way to build connections and meet many interesting people. 
+                Through this journey, I’ve had the chance to encounter a wide variety of fascinating individuals, including, as it turns out, 
+                a programming mentor. This unique combination of joy, growth, and unexpected opportunities makes dancing an essential 
+                and enriching part of my life.
+              </p>
+          </div>
+        </div>
+
+        <!-- Hiking -->
+        <div class="row g-0 align-items-center flex-column flex-md-row ms-md-5">
+          <div class="col-md-6 order-md-2 mt-5 mb-3 my-md-5">
+              <img src="../pictures/aboutMe/hugla.jpg" alt="rock-paper-scissors" class="portfolio-img img-fluid rounded">
+          </div>
+          <div class="col-md-6 my-3 my-md-5">
+              <h4>Hiking</h4>
+              <p class="justified-text">Hiking has been a passion of mine since I was a child. 
+                My father often took me and my siblings on mountain adventures, 
+                and growing up in a town surrounded by mountains meant there were always trails to explore. <br/><br/>
+                Nowadays, due to limited time, I can’t hike as frequently as I used to, but whenever I get a moment, 
+                I seize the opportunity to reconnect with nature. 
+                Being out in the mountains allows me to clear my mind and find peace amidst the beauty of the natural world.
+              </p>
+          </div>
+      </div>
+
+      <!-- Books -->
+      <div class="row g-0 align-items-center flex-column flex-md-row me-md-5">
+        <div class="col-md-6 mt-5 mb-3 my-md-5">
+            <img src="../pictures/aboutMe/books.jpg" alt="landing-page" class="portfolio-img img-fluid rounded">
+        </div>
+        <div class="col-md-6 my-3 my-md-5">
+            <h4>Books</h4>
+            <p class="justified-text">Books have become a significant part of my life, although I didn’t always read as much as I do now. 
+              I’m working to make up for lost time. When I was younger, I was particularly drawn to science fiction and fantasy. 
+              Some of my favorite series include The Lord of the Rings and The Witcher Saga.<br/><br/>
+              Lately, I’ve discovered immense value in non-fiction books. 
+              I enjoy reading scientific titles, especially in the fields of neuroscience and psychology, 
+              as well as self-help and philosophical works. Stoic philosophy has a special place in my heart, 
+              with Marcus Aurelius being one of my greatest inspirations in this area.<br/><br/>
+              That said, I still leave room for fantasy. From time to time, I delve into fiction—recently, 
+              I enjoyed The Witcher: Crossroads of Ravens, a prequel to The Witcher Saga. 
+              For me, reading is not just a pastime but a way to grow, learn, and escape into fascinating worlds.
+            </p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+    <!-- Back to main site button -->
+    <div class="container px-2">
+      <div class="text-center mb-5">
+          <button class="btn btn-outline-dark btn-lg px-4 rounded-pill" type="button">
+          <a href="../index.html" class="link-text">
+              <h3>Back to main site</h3>
+          </a>
+          </button>
+      </div>
+  </div>
+
+  </section>
+  
+  <section id="footer" class="border-top border-5 border-dark bg-danger">
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center pb-5 mt-4">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Luke Drozdovsky</span>
+            </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/łukasz-drozdowski-40a273344"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/luke_drozdovsky/?igsh=ZjI1ZDM1MWhuMHY5&fbclid=IwZXh0bgNhZW0CMTAAAR0CBq4_hhh_ojMEjPj5ZUhdtee9AovJOptFfxK7DLt0Khuo5rTscEF90e8_aem_So6FkQc6YJleEyKJ3WcYcw#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100000848747822"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg></a></li>
+                </ul>
+        </footer>
+    </div>
+  </section>
+
+</body>
 
 </html>

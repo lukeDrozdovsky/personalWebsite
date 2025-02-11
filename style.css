@@ -64,25 +64,12 @@ h4, h5 {
     white-space: nowrap;
 }
 .cv-text {
-  text-align: left;
+  text-align: justify;
   h4 {
-    text-align: left;
+    text-align: justify;
   }
 }
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-#footer {
-  margin-top: auto;
-  width: 100%;
-  text-align: center;
-  background-color: #d9534f;
-  border-top: 5px solid #333;
-}  
+ 
 @media (max-width: 450px) {
     .break-word {
       display: block;
@@ -90,18 +77,12 @@ html, body {
     }
 }
 @media (max-width: 768px) {
-    .row:nth-child(odd) .col-md-6:first-child {
-      order: 2;
-    }
-    .row:nth-child(odd) .col-md-6:last-child {
-      order: 1;
-    }
-    #resume-and-projects .project-description {
-      margin-top: -40px !important;
+    .project-description {
+      margin-bottom: 50px !important;
     }
   
-    #resume-and-projects .project-description p {
-      margin: 1px !important;
+    .project-description p {
+      margin: 2px !important;
     }
   }  
 
@@ -140,4 +121,4 @@ html, body {
     height: 150px;
     border-radius: 5%;
   } 
-} 
+}
